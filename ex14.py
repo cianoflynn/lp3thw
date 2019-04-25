@@ -14,8 +14,12 @@ lives = input(prompt)
 print("What kind of computer do you have?")
 computer = input(prompt)
 
+print("What is your favorite colour?")
+colour = input(prompt)
+
 print(f"""
 Alright, so you said {likes} about liking me.
 You live in {lives}. Not sure where that is.
 And you have a {computer} computer. Nice.
+Your favourite colour is {colour}.
 """)

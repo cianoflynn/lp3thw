@@ -39,3 +39,11 @@ def nut_bolt_count(nuts, bolts):
         print(f"We need more nuts")
 nut_bolt_count(50, 40)
 nut_bolt_count(50, 50)
+
+def user_ask():
+    print("How many nuts do we have?")
+    nuts = input()
+    print("How many bolts we have?")
+    bolts = input()
+    nut_bolt_count(nuts, bolts)
+user_ask()

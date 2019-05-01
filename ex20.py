@@ -12,7 +12,7 @@ def rewind(f):
 
 # print the number and line
 def print_a_line(line_count, f):
-    print(line_count, f.readline())
+    print(line_count, f.readline(), end = "")
 
 # open the file
 current_file = open(input_file)
